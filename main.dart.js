@@ -79605,7 +79605,7 @@ while(true)switch(s){case 0:s=3
 return A.a1(p.or(a1,a2,a3,a5),$async$mO)
 case 3:a=a9
 a0=J.aK(a)
-if(a0.ga0(a)){q=A.al(["success",!1,"message","No confirmed UTXOs available"],t.N,t.z)
+if(a0.ga0(a)){q=A.al(["success",!1,"message","No confirmed UTXOs available. If you just received funds, please wait ~15 minutes for confirmation."],t.N,t.z)
 s=1
 break}a0.eH(a,new A.aix())
 o=A.a([],t.H7)
@@ -79649,7 +79649,7 @@ s=1
 break
 case 7:s=4
 break
-case 5:q=A.al(["success",!1,"message","Insufficient funds. Available: "+B.e.a9(l,8)+" MYT"],n,m)
+case 5:q=A.al(["success",!1,"message","Insufficient funds. Available: "+B.e.a9(l,8)+" MYT (unconfirmed transactions not included - wait ~15 minutes for confirmation)"],n,m)
 s=1
 break
 case 1:return A.V(q,r)}})
